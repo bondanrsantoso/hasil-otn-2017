@@ -1,0 +1,120 @@
+/*
+===CARA PAKAI===
+Masukkin salah satu dari class-class dibawah ini buat nge-animate
+*/
+.slideup, .slidedown, .slideright, .slideleft {visibility:hidden;}
+.slide1 {
+    animation-name: slidedown;
+    -webkit-animation-name: slidedown; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.slide2 {
+    animation-name: slideup;
+    -webkit-animation-name: slideup; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.slide3 {
+    animation-name: slideright;
+    -webkit-animation-name: slideright; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+.slide4 {
+    animation-name: slideleft;
+    -webkit-animation-name: slideleft; 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slidedown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30%);
+        transform: translateY(-30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slidedown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@keyframes slideup {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30%);
+        transform: translateY(30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slideup {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+@keyframes slideright {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-30%);
+        transform: translateX(-30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slideright {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}@keyframes slideleft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(30%);
+        transform: translateX(30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    } 
+}
+@-webkit-keyframes slideleft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(30%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+    }
+}

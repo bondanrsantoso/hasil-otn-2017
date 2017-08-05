@@ -1,0 +1,170 @@
+html, body{
+	font-family: "Cabin", sans-serif;
+}
+
+h1, h2, h3, h4{
+	text-transform: uppercase;
+}
+
+section{
+	padding: 30px 0;
+}
+
+footer{
+	background-color: #080705;
+	color: white;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+
+}
+
+footer a:hover{
+	text-decoration: underline;
+	color: #ddd;
+}
+
+footer ul.no-bullet li{
+	list-style: none;
+	margin-left: -30px;
+}
+
+.center-align{
+	text-align: center;
+}
+
+.left-align{
+	text-align: left;
+}
+
+.right-align{
+	text-align: right;
+}
+
+.justify-align{
+	text-align: justify;
+}
+
+.fl-left{
+	float: left;
+}
+
+.fl-right{
+	float: right;
+}
+
+.large-header{
+	background-image: url(../img/banner-gradasi.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.navbar.navbar-inverse{
+	background-color: #080705;
+}
+
+.navbar.navbar-inverse .nav.navbar-nav li a{
+	text-transform: uppercase;
+}
+
+
+.panel.panel-default.panel-pic{
+	padding: 0;
+	height: 180px;
+	overflow: hidden;
+}
+
+.panel.panel-default.panel-pic .panel-body{
+	padding: 0;
+	overflow: hidden;
+	transition: .3s;
+}
+
+.panel.panel-default.panel-pic .panel-body:hover{
+	filter: brightness(130%);
+
+}
+
+
+.panel.panel-default.panel-pic .panel-body .img-desc{
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.panel.panel-default.person{
+	border: 0;
+
+}
+
+.panel.panel-default.person  .teacher-name{
+	margin-top: 20px;
+	font-weight: 800;
+	font-size: 120%;
+}
+
+.img-responsive.cls{
+	filter: brightness(70%);
+	transition: 0.3s;
+}
+
+.img-responsive.img-circle{
+	transition: 0.3s;
+}
+
+.img-responsive.img-circle:hover{
+	transform: scale(1.08);
+
+}
+
+.stat-icon .material-icons{
+	font-size: 3em;
+}
+.stat-number{
+	font-size: 4em;
+}
+
+p.testi{
+	font-size: 1.3em;
+}
+#large-header{
+	color: white;
+}
+
+#program{
+	padding-left: 30px;
+}
+
+#about{
+	background-color: #dedede;
+	padding: 20px 0;
+	padding-bottom: 40px;
+}
+
+#testimonial{
+	background-color: #dedede;
+	padding: 20px 0;
+	padding-bottom: 40px;
+}
+
+#get-start{
+	background-color: #444554;
+	color: white;
+	padding: 20px 0 40px 0;
+}
+
+#program h4{
+	line-height: 1.5;
+
+}
+
+#program h4 .material-icons{
+	margin-right: 17px;
+	
+}
